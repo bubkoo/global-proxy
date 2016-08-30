@@ -5,12 +5,7 @@
 .eslintrc.yml
 .gitignore
 .npmignore
-.travis.yml
-karma.conf.js
-mocha.conf.js
-mocha.opts
 webpack.config.js
-webpack.karma.config.js
 
 npm-debug.log*
 
