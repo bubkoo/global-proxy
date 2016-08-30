@@ -38,6 +38,11 @@ globalProxy.disable()
   });
 ```
 
+## Related
+
+- [global-proxy-cli](https://github.com/bubkoo/global-proxy-cli) - cli for [global-proxy](https://github.com/bubkoo/global-proxy)
+
+
 ## Contributing
 
 Pull requests and stars are highly welcome.
