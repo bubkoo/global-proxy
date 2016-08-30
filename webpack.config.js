@@ -5,7 +5,6 @@ module.exports = {
   output: {
     path: './dist',
     filename: 'index.js',
-    // library: 'globalProxy',
     libraryTarget: 'commonjs'
   },
   externals: {
@@ -25,8 +24,8 @@ module.exports = {
       }
     ]
   },
-  // plugins: [
-    // new webpack.optimize.UglifyJsPlugin()
-  // ],
-  // devtool: 'source-map'
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ],
+  devtool: 'source-map'
 };
