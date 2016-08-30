@@ -39,7 +39,7 @@ globalProxy.disable()
 
 ## Related
 
-- [global-proxy-cli](https://github.com/bubkoo/global-proxy-cli) - cli for [global-proxy](https://github.com/bubkoo/global-proxy)
+- [global-proxy-cli](https://github.com/bubkoo/global-proxy-cli) - cli for [global-proxy](https://github.com/bubkoo/global-proxy).
 
 
 ## Contributing
