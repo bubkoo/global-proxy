@@ -3,7 +3,6 @@
 > Set system proxy for mac and windows platform.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/global-proxy/blob/master/LICENSE)
-[![Package Quality](http://npm.packagequality.com/shield/global-proxy.svg)](http://packagequality.com/#?package=global-proxy)
 
 
 ## Installation
