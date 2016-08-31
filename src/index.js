@@ -25,8 +25,13 @@ function disable() {
   return execute('disable');
 }
 
+function status() {
+  return execute('status');
+}
+
 
 export default {
+  status,
   enable,
   disable
 };

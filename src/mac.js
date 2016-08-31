@@ -59,6 +59,5 @@ function disable(proxyType = 'http') {
 export default {
   enable,
   disable,
-  getNetworkType,
-  getProxyState
+  status: getProxyState
 };

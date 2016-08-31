@@ -18,8 +18,10 @@ function disable() {
   return execSync(`${REG_PATH} /v ProxyEnable /t REG_DWORD /d 0 /f`);
 }
 
+function status() {}
 
 export default {
+  status,
   enable,
   disable
 };
