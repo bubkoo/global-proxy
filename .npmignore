@@ -5,7 +5,6 @@
 .eslintrc.yml
 .gitignore
 .npmignore
-webpack.config.js
 
 npm-debug.log*
 
