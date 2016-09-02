@@ -2,11 +2,15 @@
   "name": "global-proxy",
   "version": "0.0.3",
   "description": "Set system proxy for mac and windows platform.",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf dist && webpack",
+    "build": "npm run lint && rm -rf lib && babel src --out-dir lib",
+    "lint": "eslint --ext .js src",
     "prepublish": "npm run build"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "author": {
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
@@ -19,8 +23,7 @@
     "system",
     "global",
     "mac",
-    "win",
-    "windows"
+    "win"
   ],
   "license": "MIT",
   "repository": {
@@ -32,16 +35,16 @@
   },
   "homepage": "https://github.com/bubkoo/global-proxy#readme",
   "devDependencies": {
+    "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
     "babel-eslint": "^6.1.2",
-    "babel-loader": "^6.2.5",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.14.0",
     "eslint": "^3.3.1",
     "eslint-config-airbnb-base": "^5.0.3",
-    "eslint-loader": "^1.5.0",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-import": "^1.14.0",
+    "pre-commit": "^1.1.3",
     "webpack": "^1.13.2"
   }
 }
