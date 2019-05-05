@@ -1,6 +1,7 @@
 .DS_Store
-.idea
-npm-debug.log*
-
-/node_modules
-/lib
+.vscode
+npm-debug.log
+yarn-error.log
+node_modules
+lib
+coverage
